@@ -1,6 +1,11 @@
 @import '../bourbon/bourbon';
 @import '../neat/neat';
 
+$ReflektRed: #ED1B2E;
+$ReflektGray: #919191;
+$ReflektBlue: #003CA5;
+
+
 body {
   width:90%;
   margin: 0 auto;
@@ -16,7 +21,7 @@ body {
   text-align:center;
   margin: 0 auto;
   .rfk_header {
-    background-color: #919191;
+    background-color: $ReflektGray;
     color:white;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500;
@@ -59,6 +64,14 @@ body {
           margin: 0 auto;
           margin-bottom: 10%;
           margin-top: 2%;
+          &:hover {
+            .rfk_image {
+              opacity: .5;
+            }
+            .rfk_brand, .rfk_name {
+              color: $ReflektRed;
+            }
+          }
 
           a {
             img.g {
@@ -87,7 +100,7 @@ body {
               }
               #img3 {
                 padding-top:3%;
-                padding-bottom:17%;
+                padding-bottom:16.5%;
               }
             }
             .rfk_brand {
