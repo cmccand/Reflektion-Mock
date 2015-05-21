@@ -1,0 +1,120 @@
+@import '../bourbon/bourbon';
+@import '../neat/neat';
+
+body {
+  width:90%;
+  margin: 0 auto;
+  text-align:center;
+}
+
+#four, #five, #six, .rfk_price, .rfk_more, .rfk_page_info {
+  display:none;
+}
+
+
+.rfk_rw {
+  text-align:center;
+  margin: 0 auto;
+  .rfk_header {
+    background-color: #919191;
+    color:white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 4vmin;
+    text-align:left;
+    height:8vh;
+    padding:1% 0% 4% 2%;
+    margin-top:4%;
+  }
+
+  .rfk_wrapper {
+    text-align:center;
+    margin: 0 auto;
+    .rfk_divul {
+      text-align:center;
+      margin: 0 auto;
+      .rfk_products {
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+        text-align:center;
+
+
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+
+        -webkit-flex-flow: row nowrap;
+        justify-content: space-between;
+
+        li {
+          /* @include span-columns(3); */
+          width: 30%;
+          display: inline-block;
+          border: 1px solid lightgray;
+          box-shadow: 0 0 9px #cccccc;
+          /* text-align: center; */
+          margin: 0 auto;
+          margin-bottom: 10%;
+          margin-top: 2%;
+
+          a {
+            img.g {
+              padding-right:3%;
+              width:18%;
+              position:relative;
+              float:right;
+            }
+            img.video {
+              padding-left:3%;
+              width:40%;
+              display:inline-block;
+              position:relative;
+              float:left;
+            }
+
+            .rfk_pimage {
+              img.rfk_image {
+                width: 100%;
+              }
+              #img1 {
+                padding-bottom:5%;
+              }
+              #img2 {
+                padding-bottom:12%;
+              }
+              #img3 {
+                padding-top:3%;
+                padding-bottom:17%;
+              }
+            }
+            .rfk_brand {
+              width:20%;
+              font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+              color: #003CA5;
+              font-weight:500;
+              padding:2% 0% 0% 6%;
+              text-align:left;
+/*               position:relative;
+vertical-align: baseline; */
+
+            }
+            .rfk_name {
+              width:70%;
+              font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+              color: #003CA5;
+              padding:0% 0% 6% 6%;
+              font-weight:500;
+              height: auto;
+              text-align:left;
+/*               position:relative;
+vertical-align:baseline; */
+            }
+          }
+        }
+      }
+    }
+  }
+}
