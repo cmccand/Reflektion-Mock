@@ -52,7 +52,8 @@ body {
           /* text-align: center; */
           margin: 0 auto;
           margin-bottom: 10%;
-          margin-top: 2%; }
+          margin-top: 2%;
+          cursor: pointer; }
           .rfk_rw .rfk_wrapper .rfk_divul .rfk_products li:hover .rfk_image {
             opacity: .5; }
           .rfk_rw .rfk_wrapper .rfk_divul .rfk_products li:hover .rfk_brand, .rfk_rw .rfk_wrapper .rfk_divul .rfk_products li:hover .rfk_name {
